@@ -46,3 +46,12 @@ git reset head^
 
 # 이미 push commit사항을 되돌리는 새로운 commit생성
 git revert 커밋ID
+
+# 작업중인사항을 임시저장
+git stash
+# 임시저장한 작업사항을 다시 적용
+git stash pop
+# 저장한 작업목록 조회
+git stash list
+# 저장한목록 전체삭제
+git stash clear
