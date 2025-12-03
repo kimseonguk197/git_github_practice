@@ -25,3 +25,7 @@ git push origin 브랜치명
 # 충돌발생시 충돌무시하고, 로컬기준의 코드를 원격에 덮어쓰기(절대 사용하지 말것)  
 git push origin 브랜치명 --force
 
+# 특정 commit ID로의 전환
+git checkout 커밋ID
+# 특정 브랜치로의 전환
+git checkout 브랜치명
